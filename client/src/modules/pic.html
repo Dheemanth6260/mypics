@@ -1,0 +1,13 @@
+<template>
+    
+
+    <style>
+            body {
+                background-color: coral;
+            }
+            </style>
+
+    
+    <compose show.bind="showList" show.bind="!showForm" view="./components/piclist.html"></compose>
+    <compose show.bind="!showList" show.bind="showForm" view="./components/picform.html"></compose>   
+</template>
